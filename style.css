@@ -1,0 +1,135 @@
+*{
+    margin: 0;padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.box1{
+    width: 640px;
+    height: 600px;
+    background-image: url(./9986B7415B0CB35D02.png);
+    float: left;
+}
+.box1 a{
+    font-size: 36px;
+    line-height: 1100px;
+    margin-left: 50px;
+}
+.box2{
+    width: 640px;
+    height: 600px;
+    background-image: url(./1482378778181_a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.box2 .logo{
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.box2 a{
+    font-size: 36px;
+    line-height: 1000px;
+    margin-left: 50px;
+}
+.box3{
+    width: 623px;
+    height: 600px;
+    background-image: url(./Things-to-do-in-Paris-The-Eiffel-Tower.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+}
+.box3 a{
+    font-size: 36px;
+    line-height: 1100px;
+    margin-left: 50px;
+}
+main .container .row .col-3{
+    height: 340px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    color: white;
+    line-height: 620px;
+    font-size: 30px;
+}
+main .container .row{
+    display: flex;
+    justify-content: space-between;
+}
+main .container .row .col-12{
+    height: 300px;
+    background-color: gray;
+    margin-top: 100px;
+}
+main .container .one .australia{
+    background-image: url(./호주/australia_sydney_21.jpg);
+    background-size: cover;
+}
+main .container .one .france{
+    background-image: url(./프랑스/루브르박물관입장권투어.jpg);
+    background-size: cover;
+}
+main .container .one .Iceland{
+    background-image: url(./아이슬란드/아이슬란드_오로라.png);
+    background-size: cover;
+}
+main .container .two .thailand{
+    background-image: url(./태국/방콕-왕궁-전경.jpg);
+    background-size: cover;
+}
+main .container .two .vietnam{
+    background-image: url(./베트남/16-17.jpg);
+    background-size: cover;
+}
+main .container .two .china{
+    background-image: url(./중국/220129_The-Great-Wall_0001.jpg);
+    background-size: cover;
+}
+main .container .three .America{
+    background-image: url(./1482378778181_a.jpg);
+    background-size: cover;
+}
+main .container .three .japan{
+    background-image: url(./9986B7415B0CB35D02.png);
+    background-size: cover;
+}
+main .container .three .Singapore{
+    background-image: url(./싱가포르/다운로드.jfif);
+    background-size: cover;
+}
+main .container .back .wrold{
+    background-image: url(./world-map-blue-detailed-asia-260nw-795845236.webp);
+    background-size: cover;
+    font-size: 50px;
+    text-align: center;
+    line-height: 300px;
+}
+footer{
+    margin-top: 100px;
+
+}
+footer div{
+    width: 1920px;
+    height: 200px;
+    background-color: rgb(58, 58, 58);
+}
+@media screen and (max-width: 800px) {
+    .box1{
+        width: 200px;
+    }
+    .box2{
+        width: 200px;
+    }
+    .box3{
+        width: 200px;
+    }
+  }
+
+
